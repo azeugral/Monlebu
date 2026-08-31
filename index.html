@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monlebu Cookies — Cookies artesanais | Tietê · SP</title>
+<meta name="description" content="Cookies artesanais feitos à mão, em fornadas pequenas. Inspirada no charme da Paris dos anos 20. Delivery e retirada em Tietê, São Paulo. De quarta a domingo, das 12h às 18h.">
+<meta name="theme-color" content="#0B0908">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<link rel="canonical" href="https://monlebucookies.com.br/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://monlebucookies.com.br/">
+<meta property="og:site_name" content="Monlebu Cookies">
+<meta property="og:title" content="Monlebu Cookies — O sabor de estar presente">
+<meta property="og:description" content="Cookies artesanais feitos à mão, em fornadas pequenas. Delivery e retirada em Tietê · SP.">
+<meta property="og:image" content="https://monlebucookies.com.br/assets/img/hero-poster.webp">
+<meta property="og:image:alt" content="Cookie Monlebu recém-saído do forno">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Monlebu Cookies — O sabor de estar presente">
+<meta name="twitter:description" content="Cookies artesanais feitos à mão, em fornadas pequenas. Delivery e retirada em Tietê · SP.">
+<meta name="twitter:image" content="https://monlebucookies.com.br/assets/img/hero-poster.webp">
+
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/bodoni-moda-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/jost-latin-300-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/pinyon-script-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero-poster.webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://open.spotify.com">
+
+<noscript><style>
+  .loader{ display:none !important; }
+  [data-seq],[data-reveal]{ opacity:1 !important; transform:none !important; }
+  .line > span,.hero__word > span{ transform:none !important; }
+  .hero__video{ opacity:1 !important; }
+  .player__noscript{ display:block; }
+</style></noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Monlebu Cookies",
+  "description": "Cookies artesanais feitos à mão, em fornadas pequenas.",
+  "url": "https://monlebucookies.com.br/",
+  "image": "https://monlebucookies.com.br/assets/img/hero-poster.webp",
+  "address": { "@type": "PostalAddress", "addressLocality": "Tietê", "addressRegion": "SP", "addressCountry": "BR" },
+  "servesCuisine": "Confeitaria",
+  "sameAs": ["https://www.instagram.com/monlebucookies/"],
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "12:00", "closes": "18:00"
+  }],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": "https://link.comanda10.com.br/estabelecimento/monlebu/produtos"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#topo">Ir para o conteúdo</a>
+
+<!-- ░░ PRELOADER ░░ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <img class="loader__seal" src="assets/img/logo-sm.webp" alt="" width="180" height="240" decoding="async">
+</div>
+
+<!-- ░░ BARRA DO CUPOM ░░ -->
+<aside class="ribbon" id="ribbon" aria-label="Cupom de primeira compra">
+  <p class="ribbon__text">
+    <span class="ribbon__code">MONLEBU10</span>
+    <span class="ribbon__sep" aria-hidden="true">·</span>
+    <span class="ribbon__msg">10% off na primeira compra</span>
+  </p>
+  <button class="ribbon__close" id="ribbonClose" type="button" aria-label="Fechar aviso do cupom">
+    <svg viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false"><path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+  </button>
+</aside>
+
+<!-- ░░ NAVEGAÇÃO ░░ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#topo" aria-label="Monlebu Cookies, voltar ao início">
+    <img src="assets/img/logo.webp" alt="" width="360" height="480" fetchpriority="high" decoding="async">
+    <span class="nav__brandtext">Monlebu <em>cookies</em></span>
+  </a>
+
+  <nav class="nav__links" id="navLinks" aria-label="Seções do site">
+    <a href="#casa"><span class="nav__num" aria-hidden="true">I</span>A casa</a>
+    <a href="#colecao"><span class="nav__num" aria-hidden="true">II</span>A coleção</a>
+    <a href="#trilha"><span class="nav__num" aria-hidden="true">III</span>A trilha</a>
+    <a href="#pedidos"><span class="nav__num" aria-hidden="true">IV</span>Pedidos</a>
+  </nav>
+
+  <a class="btn btn--gold nav__cta" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+    <span>Pedir online</span>
+  </a>
+
+  <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- ░░ MENU MOBILE ░░ -->
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu de navegação" hidden>
+  <nav class="drawer__nav" aria-label="Menu">
+    <a href="#casa"><em aria-hidden="true">I</em>A casa</a>
+    <a href="#colecao"><em aria-hidden="true">II</em>A coleção</a>
+    <a href="#trilha"><em aria-hidden="true">III</em>A trilha</a>
+    <a href="#pedidos"><em aria-hidden="true">IV</em>Pedidos</a>
+  </nav>
+  <div class="drawer__foot">
+    <a class="btn btn--gold" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener"><span>Pedir online</span></a>
+    <a class="drawer__ig" href="https://www.instagram.com/monlebucookies/" target="_blank" rel="noopener">@monlebucookies</a>
+  </div>
+</div>
+
+<main id="topo" tabindex="-1">
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="hero">
+    <div class="hero__media">
+      <video class="hero__video" id="heroVideo" poster="assets/img/hero-poster.webp"
+             muted loop playsinline autoplay preload="none" aria-hidden="true" tabindex="-1"></video>
+      <script>
+        (function(){
+          var v = document.getElementById('heroVideo');
+          if (!v) return;
+          var mm = window.matchMedia;
+          var narrow = mm('(max-width: 700px)').matches;
+          if (narrow) { v.poster = 'assets/img/hero-poster-mobile.webp'; }
+          /* O video e decoracao: nao carrega em economia de dados nem com movimento reduzido. */
+          if (mm('(prefers-reduced-data: reduce)').matches) return;
+          if (mm('(prefers-reduced-motion: reduce)').matches) return;
+          var srcs = narrow
+            ? [['assets/video/hero-mobile.mp4','video/mp4']]
+            : [['assets/video/hero.webm','video/webm'], ['assets/video/hero.mp4','video/mp4']];
+          srcs.forEach(function(s){
+            var el = document.createElement('source');
+            el.src = s[0]; el.type = s[1]; v.appendChild(el);
+          });
+          v.preload = 'auto'; v.load();
+          var p = v.play(); if (p && p.catch) p.catch(function(){});
+        })();
+      </script>
+      <div class="hero__scrim" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero__inner">
+      <p class="hero__eyebrow" data-seq="1">Tietê <span aria-hidden="true">·</span> São Paulo</p>
+
+      <h1 class="hero__title">
+        <span class="hero__word" data-seq="2"><span>Monlebu</span></span>
+        <em class="hero__script" data-seq="3">cookies</em>
+      </h1>
+
+      <p class="hero__line" data-seq="4">O sabor de estar presente.</p>
+      <p class="hero__sub" data-seq="5">Cookies artesanais, feitos à mão em fornadas pequenas. Inspirados no charme e na efervescência da Paris dos anos 20.</p>
+
+      <div class="hero__actions" data-seq="6">
+        <a class="btn btn--gold btn--lg js-magnet" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener"><span>Pedir online</span></a>
+        <a class="btn btn--ghost btn--lg js-trilha-cta" href="#trilha"><span>Ouvir a trilha</span></a>
+      </div>
+    </div>
+
+    <a class="hero__cue" href="#casa" data-seq="7" aria-label="Rolar para a Sala I">
+      <span aria-hidden="true">role</span><i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <div class="seal-rule" aria-hidden="true">
+    <span class="seal-rule__line"></span>
+    <img src="assets/img/logo-sm.webp" alt="" width="180" height="240" loading="lazy">
+    <span class="seal-rule__line"></span>
+  </div>
+
+  <!-- ░░ SALA I — A CASA ░░ -->
+  <section class="sala sala--casa" id="casa" aria-labelledby="casa-title">
+    <p class="sala__tag" data-reveal>Sala I</p>
+
+    <div class="casa__grid">
+      <div class="casa__text">
+        <h2 class="h-display" id="casa-title" data-reveal data-split>Uma confeitaria que se comporta como galeria.</h2>
+        <div class="prose" data-reveal data-delay="1">
+          <p>A Monlebu nasceu de uma obsessão específica: a Paris dos anos 20. O ferro fundido das fachadas, o dourado gasto dos salões, a música que atravessava a madrugada. Trouxemos essa atmosfera para uma cozinha no interior de São Paulo.</p>
+          <p>Aqui o cookie não é item de vitrine — é peça. Fornadas pequenas, feitas à mão, embaladas com a cerimônia de quem entrega alguma coisa rara.</p>
+        </div>
+        <blockquote class="quote" data-reveal data-delay="2">
+          <p>O sabor de estar presente.</p>
+          <cite>divisa da casa</cite>
+        </blockquote>
+      </div>
+
+      <figure class="casa__art casa__art--a">
+        <img src="assets/img/selo-md.webp" srcset="assets/img/selo-md.webp 800w, assets/img/selo-lg.webp 1400w" sizes="(max-width:860px) 80vw, 40vw" alt="Envelope creme lacrado com selo de cera vermelho da Monlebu" loading="lazy" width="800" height="1001">
+        <figcaption>O lacre</figcaption>
+      </figure>
+
+      <figure class="casa__art casa__art--b">
+        <img src="assets/img/carro-md.webp" srcset="assets/img/carro-md.webp 800w, assets/img/carro-lg.webp 1400w" sizes="(max-width:860px) 62vw, 26vw" alt="Caixas Monlebu sobre o banco de couro bordô de um carro antigo" loading="lazy" width="800" height="1067">
+        <figcaption>A entrega</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Monlebu <i>·</i> cookies <i>·</i> Monlebu <i>·</i> cookies <i>·</i> Monlebu <i>·</i> cookies <i>·</i> </span>
+      <span>Monlebu <i>·</i> cookies <i>·</i> Monlebu <i>·</i> cookies <i>·</i> Monlebu <i>·</i> cookies <i>·</i> </span>
+    </div>
+  </div>
+
+  <!-- ░░ SALA II — A COLEÇÃO ░░ -->
+  <section class="sala sala--colecao" id="colecao" aria-labelledby="colecao-title">
+    <p class="sala__tag" data-reveal>Sala II</p>
+
+    <div class="colecao__head">
+      <h2 class="h-display" id="colecao-title" data-reveal data-split>A coleção</h2>
+      <p class="lead" data-reveal data-delay="1">Oito criações da casa, cada uma com massa e recheio próprios. Fornadas pequenas — a disponibilidade do dia fica no cardápio online.</p>
+    </div>
+
+    <div class="wall">
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/monlebu-md.webp" srcset="assets/img/monlebu-md.webp 600w, assets/img/monlebu-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Monlebu partido ao meio: massa red velvet com recheio branco de brigadeiro de cream cheese" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Monlebu</span>
+          <span class="cartel__desc">A nossa assinatura. Massa aveludada red velvet, recheada com brigadeiro de cream cheese super cremoso.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">100 g</span>
+            <span class="cartel__price">R$ 18,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/pistachio-md.webp" srcset="assets/img/pistachio-md.webp 600w, assets/img/pistachio-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Pistachio partido ao meio, com creme de pistache verde escorrendo" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Pistachio</span>
+          <span class="cartel__desc">Pistache de verdade triturado até virar creme, combinado com chocolate branco nobre. Sem essência artificial, com pedacinhos crocantes na massa.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">100 g</span>
+            <span class="cartel__price">R$ 23,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/chocolat-noir-md.webp" srcset="assets/img/chocolat-noir-md.webp 600w, assets/img/chocolat-noir-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Chocolat Noir partido ao meio, com recheio cremoso de chocolate escorrendo" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Chocolat Noir</span>
+          <span class="cartel__desc">O paraíso dos chocólatras. Massa 100% cacau belga, gotas de chocolate nobre e um recheio cremoso 40% cacau.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">100 g</span>
+            <span class="cartel__price">R$ 16,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/kinder-md.webp" srcset="assets/img/kinder-md.webp 600w, assets/img/kinder-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Kinder partido ao meio, com recheio cremoso e um pedaço de Kinder Bueno por cima" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Kinder</span>
+          <span class="cartel__desc">Massa suave de baunilha com recheio generoso de Kinder Bueno e pedacinhos crocantes.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">100 g</span>
+            <span class="cartel__price">R$ 21,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/bala-baiana-md.webp" srcset="assets/img/bala-baiana-md.webp 600w, assets/img/bala-baiana-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Bala Baiana partido ao meio, com coco, caramelo e chocolate branco derretido" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Bala Baiana</span>
+          <span class="cartel__desc">Criação exclusiva com massa especial de leite de coco. Infundido com pedaços de caramelo artesanal, coco, chocolate branco e amêndoas tostadas.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">105 g</span>
+            <span class="cartel__price">R$ 18,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/nutella-md.webp" srcset="assets/img/nutella-md.webp 600w, assets/img/nutella-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie de Nutella partido ao meio, com recheio de avelã escorrendo" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Nutella</span>
+          <span class="cartel__desc">Massa amanteigada com extrato de baunilha real, recheada com Nutella pura e cremosa. Um clássico com vibe de conforto nostálgico.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">90 g</span>
+            <span class="cartel__price">R$ 17,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/trio-chocolat-md.webp" srcset="assets/img/trio-chocolat-md.webp 600w, assets/img/trio-chocolat-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Trio Chocolat partido ao meio: massa preta com recheio de chocolate branco escorrendo" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Trio Chocolat</span>
+          <span class="cartel__desc">Massa aveludada de cacau black com gotas de chocolate ao leite, recheada com chocolate branco nobre.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">100 g</span>
+            <span class="cartel__price cartel__price--ask">no cardápio</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+
+      <a class="art" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">
+        <span class="art__frame"><span class="art__mount">
+          <img src="assets/img/limone-md.webp" srcset="assets/img/limone-md.webp 600w, assets/img/limone-lg.webp 1000w" sizes="(max-width:700px) 86vw, (max-width:1080px) 43vw, 22vw" alt="Cookie Limone partido ao meio, com raspas de limão siciliano e chocolate branco" loading="lazy" width="1000" height="747">
+        </span></span>
+        <span class="cartel">
+          <span class="cartel__name"><i>Cookie</i>Limone</span>
+          <span class="cartel__desc">Massa tradicional de baunilha, raspas de limão siciliano e chocolate branco nobre.</span>
+          <span class="cartel__meta">
+            <span class="cartel__weight">80 g</span>
+            <span class="cartel__price">R$ 15,00</span>
+          </span>
+          <span class="cartel__cta">Ver no cardápio <i aria-hidden="true">&#8599;</i></span>
+        </span>
+      </a>
+    </div>
+
+    <div class="wall__note" data-reveal>
+      <p>Peça a sua no cardápio completo.</p>
+      <a class="btn btn--gold js-magnet" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener"><span>Ver o cardápio</span></a>
+    </div>
+  </section>
+
+  <div class="seal-rule" aria-hidden="true">
+    <span class="seal-rule__line"></span>
+    <img src="assets/img/logo-sm.webp" alt="" width="180" height="240" loading="lazy">
+    <span class="seal-rule__line"></span>
+  </div>
+
+  <!-- ░░ SALA III — A TRILHA ░░ -->
+  <section class="sala sala--trilha" id="trilha" aria-labelledby="trilha-title">
+    <p class="sala__tag" data-reveal>Sala III</p>
+
+    <div class="trilha__grid">
+      <div class="trilha__disc">
+        <div class="disc" id="disc">
+          <div class="disc__plate">
+            <img src="assets/img/disco-md.webp" srcset="assets/img/disco-md.webp 560w, assets/img/disco-lg.webp 880w" sizes="(max-width:860px) 68vw, 34vw" alt="Disco de vinil vermelho e dourado com o selo da Monlebu Cookies" loading="lazy" width="880" height="880">
+          </div>
+          <div class="disc__shine" aria-hidden="true"></div>
+        </div>
+        <p class="disc__cap"><span class="disc__caplabel">Lado A</span> A trilha do salão</p>
+      </div>
+
+      <div class="trilha__text">
+        <h2 class="h-display" id="trilha-title" data-reveal data-split>Toda galeria tem sua acústica.</h2>
+        <div class="prose" data-reveal data-delay="1">
+          <p>A nossa cabe numa playlist: o que toca no salão enquanto o forno trabalha. Jazz de sala pequena, um pouco de fumaça, nenhuma pressa. Deixe rodando enquanto escolhe a sua peça.</p>
+        </div>
+
+        <div class="player" data-reveal data-delay="2">
+          <div class="player__mount" id="spotifyMount"></div>
+          <noscript><div class="player__noscript">
+            <iframe title="Playlist Monlebu Cookies no Spotify"
+              src="https://open.spotify.com/embed/playlist/1uchC57iReiHSt9jHB1esq?utm_source=generator&amp;theme=0"
+              width="100%" height="352" style="border:0" loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div></noscript>
+        </div>
+
+        <p class="player__note" id="trilhaNote" hidden>
+          A trilha continua tocando enquanto você percorre as salas — o controle de pausa fica no canto da tela.
+        </p>
+
+        <a class="link-gold" href="https://open.spotify.com/playlist/1uchC57iReiHSt9jHB1esq" target="_blank" rel="noopener">Abrir no Spotify<i aria-hidden="true">↗</i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SALA IV — PEDIDOS ░░ -->
+  <section class="sala sala--pedidos" id="pedidos" aria-labelledby="pedidos-title">
+    <p class="sala__tag" data-reveal>Sala IV</p>
+
+    <div class="pedidos__grid">
+      <div class="pedidos__text">
+        <h2 class="h-display" id="pedidos-title" data-reveal data-split>Como pedir a sua</h2>
+
+        <p class="status" id="status" data-reveal data-delay="1">
+          <span class="status__dot" aria-hidden="true"></span>
+          <span class="status__label" id="statusLabel" role="status">Consultando o horário…</span>
+        </p>
+
+        <dl class="facts" data-reveal data-delay="2">
+          <div class="fact">
+            <dt>Horário</dt>
+            <dd>Quarta a domingo<br>12h às 18h</dd>
+          </div>
+          <div class="fact">
+            <dt>Retirada</dt>
+            <dd>Tietê · São Paulo<br>Retirada rápida</dd>
+          </div>
+          <div class="fact">
+            <dt>Entrega</dt>
+            <dd>Delivery na região<br>Detalhes no cardápio online</dd>
+          </div>
+          <div class="fact">
+            <dt>Cupom</dt>
+            <dd><b class="fact__code">MONLEBU10</b><br>10% off na primeira compra</dd>
+          </div>
+        </dl>
+
+        <div class="pedidos__actions" data-reveal data-delay="3">
+          <a class="btn btn--gold btn--lg js-magnet" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener"><span>Pedir online</span></a>
+          <a class="btn btn--ghost btn--lg" href="https://www.instagram.com/monlebucookies/" target="_blank" rel="noopener"><span>@monlebucookies</span></a>
+        </div>
+      </div>
+
+      <figure class="pedidos__art">
+        <img src="assets/img/entrega-md.webp" srcset="assets/img/entrega-md.webp 800w, assets/img/entrega-lg.webp 1400w" sizes="(max-width:860px) 78vw, 42vw" alt="Mulher de blazer de veludo bordô segurando a sacola xadrez da Monlebu" loading="lazy" width="800" height="1067">
+        <figcaption>A sacola da casa</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ░░ CHAMADA FINAL ░░ -->
+  <section class="closing" id="fechamento" aria-labelledby="closing-title">
+    <div class="closing__bg" aria-hidden="true">
+      <img src="assets/img/mesa-lg.webp" alt="" loading="lazy" width="1400" height="1867">
+    </div>
+    <div class="closing__inner">
+      <p class="closing__eyebrow" data-reveal>Última sala</p>
+      <h2 class="closing__title" id="closing-title" data-reveal data-delay="1" data-split>Leve uma peça para casa.</h2>
+      <a class="btn btn--gold btn--lg js-magnet" data-reveal data-delay="2" href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener"><span>Pedir online</span></a>
+      <p class="closing__note" data-reveal data-delay="3">Use <b>MONLEBU10</b> e ganhe 10% na primeira compra.</p>
+    </div>
+  </section>
+</main>
+
+<!-- ░░ CONTROLE DA TRILHA ░░ -->
+<div class="pill" id="trilhaPill" hidden>
+  <button class="pill__btn" id="trilhaToggle" type="button" aria-pressed="false" aria-label="Pausar a trilha">
+    <span class="pill__disc" aria-hidden="true"></span>
+    <span class="pill__text">Trilha</span>
+    <span class="pill__icon" aria-hidden="true">
+      <svg class="pill__pause" viewBox="0 0 10 12" width="10" height="12" focusable="false"><rect x="0" y="0" width="3" height="12" fill="currentColor"/><rect x="7" y="0" width="3" height="12" fill="currentColor"/></svg>
+      <svg class="pill__play" viewBox="0 0 10 12" width="10" height="12" focusable="false"><path d="M0 0l10 6-10 6z" fill="currentColor"/></svg>
+    </span>
+  </button>
+  <button class="pill__close" id="trilhaDismiss" type="button" aria-label="Dispensar o controle da trilha">
+    <svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.3" fill="none"/></svg>
+  </button>
+</div>
+
+<!-- ░░ RODAPÉ ░░ -->
+<footer class="foot">
+  <div class="foot__top">
+    <div class="foot__brand">
+      <img src="assets/img/logo-sm.webp" alt="" width="180" height="240" loading="lazy">
+      <p class="foot__word">Monlebu <em>cookies</em></p>
+      <p class="foot__tag">O sabor de estar presente.</p>
+    </div>
+
+    <nav class="foot__nav" aria-label="Rodapé">
+      <div class="foot__col">
+        <h3>A casa</h3>
+        <a href="#casa">Sobre</a>
+        <a href="#colecao">A coleção</a>
+        <a href="#trilha">A trilha</a>
+        <a href="#pedidos">Pedidos</a>
+      </div>
+      <div class="foot__col">
+        <h3>Pedidos</h3>
+        <a href="https://link.comanda10.com.br/estabelecimento/monlebu/produtos" target="_blank" rel="noopener">Cardápio online <i aria-hidden="true">↗</i></a>
+        <a href="https://www.instagram.com/monlebucookies/" target="_blank" rel="noopener">Instagram <i aria-hidden="true">↗</i></a>
+        <a href="https://open.spotify.com/playlist/1uchC57iReiHSt9jHB1esq" target="_blank" rel="noopener">Playlist <i aria-hidden="true">↗</i></a>
+      </div>
+      <div class="foot__col foot__col--info">
+        <h3>Horário</h3>
+        <p>Quarta a domingo<br>12h às 18h</p>
+        <p>Tietê · SP<br>Delivery e retirada</p>
+      </div>
+    </nav>
+  </div>
+
+  <div class="foot__bar">
+    <p>© <span id="year">2026</span> Monlebu Cookies</p>
+    <p>Site por <a href="https://lrgz.com.br" target="_blank" rel="noopener">LRGZ</a></p>
+  </div>
+</footer>
+
+<div class="grain" aria-hidden="true"></div>
+<script src="assets/js/main.js" defer></script>
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+</body>
+</html>
